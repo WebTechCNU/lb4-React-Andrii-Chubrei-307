@@ -1,0 +1,35 @@
+/* styles/Nav.css */
+.nav-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрування по вертикалі */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Відстань між елементами */
+  }
+  
+  .nav-link {
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #2980b9;
+    border-bottom: 2px solid #ecf0f1;
+  }
+  
